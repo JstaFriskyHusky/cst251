@@ -1,0 +1,47 @@
+body {
+    background: url("https://i.imgur.com/z7xtFlL.png") no-repeat center center fixed;
+    color: rgba(31, 31, 30);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    margin-right: 30px;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.stuff {
+  font-size: 20px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.inside {
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+p {
+  color: rgba(242, 242, 242);
+  margin-left: 50px;
+}
+
+img {
+  width: 30%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.image {
+  border-radius: 20px;
+  display: inline;
+  padding: 20px;
+}
+
+.outerbox {
+  border: 2px, curved black;
+}
