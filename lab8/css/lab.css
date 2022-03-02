@@ -1,0 +1,80 @@
+body {
+    background: url("https://i.imgur.com/1ngfTv5.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    margin-right: 30px;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: "Courier New", monospace;
+}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "papyrus", fantasy;
+  color: rgba(24, 204, 174);
+}
+
+.headertwo {
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "papyrus", fantasy;
+  color: rgba(24, 204, 174);
+  float: right;
+}
+
+.content {
+  font-size: 25px;
+  border: 2px dashed rgba(125, 10, 10);
+  width: 50%;
+}
+
+span {
+  text-decoration: underline;
+  color: rgba(5, 163, 181);
+}
+
+li {
+  color: rgba(72, 138, 50);
+  margin-left: 30px;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 30px;
+  color: rgba(113, 43, 255);
+}
+
+div.callout li {
+  color: rgba(158, 32, 97);
+}
+
+img {
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image {
+  float: right;
+  transition: : .5s all ease-in-out;
+}
+
+.image:hover img {
+  transform: scale(1.5);
+}
