@@ -66,5 +66,6 @@ p {
 }
 
 div.callout li {
-  color: rgba(158, 32, 97);
+  color: rgba(184, 71, 29);
+  font-family: 'Bungee', cursive;
 }
