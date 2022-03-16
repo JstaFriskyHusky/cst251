@@ -1,0 +1,147 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(40,224,202,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+  color: rgba(138, 7, 7);
+  line-height: 2px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+
+h2 {
+    margin-right: 30px;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    color: rgba(29, 103, 222);
+}
+
+h3 {
+  font-style: italic;
+  float: right;
+  clear: right;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  color: rgba(29, 103, 222);}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(24, 204, 174);
+  text-align: center;
+}
+
+#floated {
+  float: right;
+  font-size: 15px;
+  padding: 15px;
+  border-style: ridge;
+  border-color: rgba(7,64,107);
+  border-width: 10px;
+  width: 30%;
+  color: black;
+}
+
+#center-horz {
+  text-align: center;
+  float: right;
+  clear: right;
+}
+
+#center-img {
+  text-align: center;
+}
+
+#center-both {
+  position: relative;
+}
+
+#center-both img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  float: right;
+  clear: right;
+}
+
+#content {
+  margin-left: 1em;
+  list-style-position: inside;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  border: groove 50px aquamarine;
+  padding: 20px;
+  margin: 20px;
+}
+
+.stuff {
+  font-size: 25px;
+  border-style: double;
+  border-color: rgba(7,64,107);
+  border-width: 10px;
+  width: 50%;
+  color: rgba(55, 33, 235);
+}
+
+.thirty {
+  font-size: 25px;
+  border-style: double;
+  border-color: rgba(7,64,107);
+  border-width: 10px;
+  width: 30%;
+  color: rgba(55, 33, 235);
+}
+
+li {
+  color: rgba(64, 62, 59);
+  margin-left: 30px;
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 30px;
+  color: rgba(64, 62, 59);
+  font-family: 'Roboto Slab', serif;
+}
+
+div.callout li {
+  color: rgba(184, 71, 29);
+}
+
+.center-left img {
+  width: 150px;
+  height: auto;
+}
+
+.center-left {
+  width: 30%;
+  border:double 10px rgba(7,64,107);
+  height: 150px;
+  padding: 20px;
+}
+
+.center-right img {
+  width: 150px;
+  height: auto;
+}
+
+.center-right {
+  width: 30%;
+  border:double 10px rgba(7,64,107);
+  height: 150px;
+  padding: 20px;
+  float: right;
+  clear: right;
+}
