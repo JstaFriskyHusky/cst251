@@ -128,7 +128,7 @@ div.callout li {
 .center-left {
   width: 30%;
   border:double 10px rgba(7,64,107);
-  height: 150px;
+  height: 400px;
   padding: 20px;
 }
 
@@ -140,7 +140,7 @@ div.callout li {
 .center-right {
   width: 30%;
   border:double 10px rgba(7,64,107);
-  height: 150px;
+  height: 400px;
   padding: 20px;
   float: right;
   clear: right;
