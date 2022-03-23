@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(lightblue, pink);
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+  color: rgba(94, 18, 18);
+  line-height: 2px;
+  letter-spacing: 3px;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+h2 {
+    margin-right: 30px;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    color: rgba(29, 103, 222);
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-size: 50px;
+  margin-left: 25px;
+  font-style: italic;
+  color: rgba(29, 103, 222);
+  line-height: 2px;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(24, 204, 174);
+  text-align: center;
+}
+
+#links {
+  position: sticky;
+  top: 0px;
+  font-size: 25px;
+}
+
+#content {
+  margin-left: 1em;
+  list-style-position: inside;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.stuff {
+  font-size: 25px;
+  width: 50%;
+  color: rgba(55, 33, 235);
+}
+
+li {
+  color: black;
+  margin-left: 30px;
+}
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  margin-left: 30px;
+  color: black;
+}
+
+div.callout li {
+  color: black;
+}
+
+.image {
+padding-top: 30px;
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+img {
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 60vw;
+}
+
+span {
+  font-family: "Georgia", serif;
+  color: rgba(255, 110, 110);
+}
