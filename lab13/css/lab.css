@@ -1,16 +1,5 @@
 body {
-    background: url("https://i.imgur.com/S6JQe7z.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-attachment: scroll;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    background-color: red;
+    background: linear-gradient(lightblue, pink);
 }
 
 h1 {
@@ -67,15 +56,12 @@ h3 {
 
 .stuff {
   font-size: 25px;
-  border-style: double;
-  border-color: rgba(7,64,107);
-  border-width: 10px;
   width: 50%;
   color: rgba(55, 33, 235);
 }
 
 li {
-  color: rgba(224, 223, 202);
+  color: black;
   margin-left: 30px;
 }
 
@@ -83,24 +69,11 @@ p {
   font-family: "Georgia", serif;
   font-size: 25px;
   margin-left: 30px;
-  color: rgba(163, 188, 194);
+  color: black;
 }
 
 div.callout li {
-  color: rgba(184, 71, 29);
-}
-
-#sidebar {
-  display: inline-block;
-  min-width: 300px;
-  float: right;
-  width: 30%;
-  border-style: double;
-  border-color: rgba(7,64,107);
-  border-width: 10px;
-  margin-right: 1em;
-  position: relative;
-  text-align: left;
+  color: black;
 }
 
 .image {
