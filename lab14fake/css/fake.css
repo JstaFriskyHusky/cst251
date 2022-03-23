@@ -122,7 +122,7 @@ img {
 #sidebar2 {
   float: left;
   width: 20%;
-  left: 0;
+  margin-left: 20px;
   margin-top: -250px;
 }
 
@@ -130,6 +130,7 @@ img {
   font-size: 20px;
   color: white;
   writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 span {
