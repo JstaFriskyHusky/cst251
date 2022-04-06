@@ -1,0 +1,179 @@
+body {
+  background-image: url(https://i.imgur.com/Dh8SDgg.gif), url(https://i.imgur.com/ezqlS5D.jpg);
+  background-position: left bottom, left top;
+  background-size: 400px;
+  background-repeat: no-repeat, repeat;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+  color: rgba(94, 18, 18);
+  line-height: 2px;
+  letter-spacing: 3px;
+  font-family: 'Georgia', serif;
+  text-decoration: underline;
+  transform: rotate(14deg);
+}
+
+h2 {
+    margin-right: 30px;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    color: rgba(29, 103, 222);
+    font-family: 'Playfair Display', serif;
+    text-shadow: 5px 5px 3px rgb(47, 136, 181);
+}
+
+h3 {
+  font-size: 50px;
+  margin-left: 25px;
+  font-style: italic;
+  color: rgba(29, 103, 222);
+  line-height: 2px;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(24, 204, 174);
+  text-align: center;
+}
+
+#sidebar {
+  display: inline-block;
+  min-width: 300px;
+  float: right;
+  border-style: double;
+  border-color: rgba(7,64,107);
+  border-width: 10px;
+  margin-right: 1em;
+  position: relative;
+  text-align: left;
+  width: auto;
+}
+
+#links {
+  position: sticky;
+  top: 0px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#content {
+  margin-left: 1em;
+  list-style-position: inside;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.stuff {
+  font-size: 25px;
+  border-style: double;
+  border-color: rgba(7,64,107);
+  border-width: 10px;
+  width: 50%;
+  color: rgba(55, 33, 235);
+  box-shadow: 5px 5px 3px rgb(47, 136, 181);
+}
+
+.stuff2 {
+  font-size: 25px;
+  border-style: double;
+  border-color: rgba(7,64,107);
+  border-width: 10px;
+  width: 50%;
+  color: rgba(55, 33, 235);
+  box-shadow: 5px 5px 3px rgb(47, 136, 181);
+  column-count: 2;
+}
+
+li {
+  color: black;
+  margin-left: 30px;
+}
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  margin-left: 30px;
+  color: black;
+}
+
+div.callout li {
+  color: rgba(184, 71, 29);
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+  .shibe {
+  padding: 30px;
+  display: block;
+  width: 50%;
+  height: 50%;
+  border: 7px solid black;
+  border-radius: 25px;
+  clear: right;
+  height: 100%;
+  width: 100%;
+  animation: rotation .1s infinite linear;
+}
+
+.shibe2 {
+  padding: 30px;
+  display: block;
+  width: 50%;
+  height: 50%;
+  border: 7px solid black;
+  border-radius: 25px;
+  clear: right;
+  filter: grayscale(100%);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 10s;
+  float: left;
+}
+
+.image:hover {
+  width: 300px;
+}
+
+.thing {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+  float: left;
+  clear: left;
+}
+
+.thing:hover {
+  width: 300px;
+  height: 300px;
+}
+
+img {
+  border-radius: 20%;
+  padding: 20px;
+  width: auto;
+  height: 100%;
+  animation: rotation .1s infinite linear;
+}
