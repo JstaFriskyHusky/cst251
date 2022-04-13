@@ -1,0 +1,156 @@
+body {
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  display: block;
+  margin: auto;
+}
+
+.content {
+  width: 70%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+
+.stuff {
+  border: solid 1px black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+.inside {
+  min-height: 200px;
+  text-align: center;
+  border: solid 1px grey;
+  padding: 15px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  border: solid 1px black;
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  border: solid 1px grey;
+}
+
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.right {
+  min-height: 200px;
+  text-align: center;
+  border: solid 1px grey;
+  padding: 15px;
+  width: 30%;
+  flex-grow: 1;
+}
+
+.left {
+  min-height: 150px;
+  text-align: center;
+  border: solid 1px grey;
+  padding: 15px;
+  width: 30%;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .stuff, .inside, .footer, .content, .right, .left, .topnav {
+    width: 100% !important;
+  }
+}
+
+.footer img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  float: right;
+  margin-top: 60px;
+}
+
+ img {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+#sidebar {
+  display: inline-block;
+  min-width: 300px;
+  float: right;
+  clear: right;
+  border: solid 1px gray;
+  padding-left: 15px;
+  position: relative;
+  text-align: left;
+  width: auto;
+  font-size: 25px;
+  line-height: 3;
+  min-height: 200px;
+}
+
+h1 {
+  top: 0;
+  text-align: center;
+  font-size: 2rem;
+  word-spacing: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+p {
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 15px;
+}
+
+nav {
+  text-align: center;
+}
+
+li {
+  color: black;
+  text-align: left;
+  font-size: 15px;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
