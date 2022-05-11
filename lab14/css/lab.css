@@ -2,6 +2,13 @@ body {
     background: linear-gradient(lightblue, pink);
 }
 
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
 h1 {
   margin-top: 30px;
   text-align: center;
