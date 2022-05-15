@@ -1,0 +1,188 @@
+body, html {
+  height: 3800px;
+  font-family: 'Comfortaa', cursive;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgb(8,68,82);
+  background: linear-gradient(0deg, rgba(8,68,82,1) 0%, rgba(21,93,125,1) 11%, rgba(98,132,147,1) 100%);
+  position: relative;
+}
+
+.header {
+  font-family: 'Comfortaa', cursive;
+  background-color: #;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 30px;
+  width: 900px;
+  margin-left: 434px;
+}
+
+.pic {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.header-image {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 30px;
+  margin-left: 560px;
+  padding-top: 0;
+}
+
+.header-image2 {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 30px;
+  margin-left: 591px;
+  padding-top: 0;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5px;
+  text-align: center;
+  height: 400px;
+}
+
+.columnp {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5px;
+  text-align: center;
+  height: 180px;
+  border-left: solid 10px gray;
+  border-right: solid 10px gray;
+  width: 200px;
+  margin-top: -50px;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 57px;
+  padding-right: 50px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4f575b;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img {
+  height: 100%;
+  box-shadow: 5px 5px 3px rgb(36, 61, 79);
+  border: solid 10px #d2d2d2;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-bottom: -40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  width: 285px;
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-bottom: -40px;
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   height: 100px;
+   bottom: 0px;
+   width: 100%;
+   background-color: #3f575b;
+   color: white;
+}
+
+.footer p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 57px;
+  padding-right: 50px;
+  color: white;
+
+}
+
+@media only screen and (max-width: 620px) {
+  .header, .row, .column, .footer, .header-image, .header-image2, .pic, .columnp{
+    width: 100%;
+  }
+}
+
+/* width /
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/ Track /
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/ Handle /
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+/ Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
